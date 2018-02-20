@@ -224,7 +224,7 @@ label {
 	}
 
 	div.voor {
-		height: 290px;
+		height: 270px;
 		width: 92%
 	}
 
@@ -285,5 +285,16 @@ label {
 @media only screen and (min-width: 1500px) {
 	div.voor, div.omg, div.voer {
 		height: 250px;
+	}
+
+	div.title {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	p {
+		margin-top: 10px;
 	}
 }
