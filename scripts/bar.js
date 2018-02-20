@@ -5,7 +5,7 @@ new Chart(document.getElementById("bar-chart"), {
       datasets: [
         {
           label: "psi",
-          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+          backgroundColor: ["#ff9a3f", "#e34f43","#b22253","#790d42"],
           data: [730,572,174,357]
         }
       ]
