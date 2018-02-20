@@ -1,0 +1,123 @@
+/* Algemeen */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	font-family: 'Montserrat', 'Lato', Verdana;
+	background-color: #21203d;
+
+}
+
+/* Grids */
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-gap: 1px;
+	
+	grid-template-areas:
+	"title"
+	"voorradden"
+	"voorradden1"
+	"voertuig"
+	"omgeving";
+}
+
+.title {
+	grid-area: title;
+	margin-top: 10px;
+	margin-left: 12px;
+	height: 80px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.pie {
+	grid-area: voorradden;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.dough {
+	grid-area: voorradden1;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.line {
+	grid-area: voertuig;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.bar {
+	grid-area: omgeving;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+div.voor, div.voer, div.omg {
+	border-radius: 5px;
+	margin: 20px 20px 0px 20px;
+	padding: 10px;
+	background-color: #3a3b5d;
+}
+
+div.voor {
+	height: 352px;
+}
+
+div.omg {
+	margin-bottom: 20px;
+}
+
+/* Tekst */
+
+h1 {
+	color: white;
+}
+
+h2 {
+	font-weight: normal;
+	margin-bottom: 2px;
+	margin-left: 10px;
+	color: white;
+}
+
+h2.h2 {
+	margin-bottom: 11px;
+}
+
+h3 {
+	font-weight: normal;
+	margin-bottom: 8px;
+	color: white;
+	font-style: italic;
+}
+
+p {
+	font-style: italic;
+}
+
+.space {
+	color: white;
+	margin-left: 10px;
+	text-shadow: 1px 1px #000000;
+}
+
+/* Charts */
+canvas {
+	width: 95%;
+	background-color:
+}
+
+label {
+	font-size: 15px;
+	color: white;
+}

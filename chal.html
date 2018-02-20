@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="style/dash.css">
+  </head>
+  <body>
+    <div class="title">
+        <h1 class="space">5 maart 2030</h1>
+        <p class="space">Maandag</p>
+    </div>
+    <div class="voor">
+        <h2>Voorradden</h2>
+        <div class="pie">
+            <h3>Eten</h3>
+            <canvas id="pie-chart"></canvas>
+        </div>
+        <div class="dough">
+            <h3>Water</h3>
+            <canvas id="doughnut-chart"></canvas>
+        </div>
+    </div> 
+    <div class="voer">
+        <h2>Voertuig informatie</h2>
+        <div class="line">
+            <h3>Afstand afgelegd over tijd</h3>
+            <canvas id="line-chart"></canvas>
+        </div>
+    </div>
+    <div class="omg">
+        <h2 class="h2">Omgeving informatie</h2>
+        <div class="bar">
+            <canvas id="bar-chart"></canvas>
+        </div>
+    </div>
+    
+
+    <script type="text/javascript" src="scripts/Chart.js"></script>
+    <script type="text/javascript" src="scripts/pie.js"></script>
+    <script type="text/javascript" src="scripts/dough.js"></script>
+    <script type="text/javascript" src="scripts/line.js"></script>
+    <script type="text/javascript" src="scripts/bar.js"></script>
+  </body>
+</html>
