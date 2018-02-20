@@ -75,7 +75,7 @@ div.voor, div.voer, div.omg {
 }
 
 div.voor {
-	height: 352px;
+	height: 420px;
 }
 
 div.omg {
@@ -202,15 +202,16 @@ label {
 /* M */
 @media only screen and (min-width: 800px) {
 	.grid-container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
-	grid-gap: 1px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-gap: 1px;
 	
-	grid-template-areas:
-	"title voorradden"
-	"voorradden1 voertuig"
-	"snelheid omgeving";
+		grid-template-areas:
+		"title title"
+		"voorradden voorradden1"
+		"voertuig snelheid"
+		"omgeving omgeving";
 	}
 
 	.pie, .dough, .voer, .snelheid {
@@ -224,6 +225,7 @@ label {
 
 	div.voor {
 		height: 290px;
+		width: 92%
 	}
 
 	.vinfo {
@@ -243,8 +245,38 @@ label {
 
 /* L */
 @media only screen and (min-width: 1200px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-gap: 1px;
+	
+		grid-template-areas:
+		"title title title"
+		"voorradden voorradden1 voertuig"
+		"snelheid omgeving omgeving";
+	}
+
 	div.voor {
 		width: 50%;
-		height: 400px;
+		height: 200px;
+	}
+
+	div.voer {
+		width: 50%;
+		height: 200px;
+	}
+
+	div.omg {
+		width: 23%;
+	}
+
+	div.een {
+		display: flex;
+		flex-direction: row;
+	}
+
+	div.omg {
+		margin-top: 30px;
 	}
 }
