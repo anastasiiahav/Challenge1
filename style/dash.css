@@ -75,7 +75,7 @@ div.voor, div.voer, div.omg {
 }
 
 div.voor {
-	height: 420px;
+	height: 330px;
 }
 
 div.omg {
@@ -195,7 +195,7 @@ label {
 /* S */
 @media only screen and (min-width: 500px) {
 	div.voor {
-		height: 530px;
+		height: 635px;
 	}
 }
 
@@ -278,5 +278,12 @@ label {
 
 	div.omg {
 		margin-top: 30px;
+	}
+}
+
+/* XL */
+@media only screen and (min-width: 1500px) {
+	div.voor, div.omg, div.voer {
+		height: 250px;
 	}
 }
