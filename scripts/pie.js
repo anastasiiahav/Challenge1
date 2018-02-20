@@ -4,7 +4,7 @@ new Chart(document.getElementById("pie-chart"), {
       labels: ["Brood", "Vlees", "Groenten", "Fruit"],
       datasets: [{
         label: "Stuks",
-        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9"],
+        backgroundColor: ["#ff9a3f", "#e34f43","#b22253","#790d42"],
         data: [2478,5267,734,784]
       }]
     },
