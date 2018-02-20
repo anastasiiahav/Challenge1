@@ -173,7 +173,7 @@ label {
 }
 
 .speedometer.speed-2 {
-	background-color: #8e5ea2;
+	background-color: #e34f43;
 }
 .speedometer.speed-2 > .pointer {
 	animation-name: speed-2;
