@@ -5,7 +5,7 @@ new Chart(document.getElementById("line-chart"), {
     datasets: [{ 
         data: [100,500,1000,1500],
         label: "Afstand",
-        borderColor: "#3e95cd",
+        borderColor: "#ff9a3f",
         fill: false
       }
     ]
