@@ -5,7 +5,7 @@ new Chart(document.getElementById("doughnut-chart"), {
       datasets: [
         {
           label: "Liters",
-          backgroundColor: ["#3e95cd"],
+          backgroundColor: ["#b22253"],
           data: [99]
         }
       ]
