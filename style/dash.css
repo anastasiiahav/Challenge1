@@ -74,7 +74,6 @@ div.voor, div.voer, div.omg {
 	background-color: #3a3b5d;
 }
 
-
 div.omg {
 	margin-bottom: 20px;
 }
@@ -192,7 +191,7 @@ label {
 /* S */
 @media only screen and (min-width: 500px) {
 	div.voor {
-		height: 635px;
+		width: 90%;
 	}
 }
 
@@ -221,7 +220,6 @@ label {
 	}
 
 	div.voor {
-		height: 270px;
 		width: 92%
 	}
 
@@ -256,7 +254,7 @@ label {
 
 	div.voor {
 		width: 50%;
-		height: 200px;
+
 	}
 
 	div.voer {
